@@ -1,0 +1,69 @@
+body {
+    background-image: url(./assets/home/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.bold {
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.maincontent {
+    color: white;
+    width: 280px;
+    margin-left: 225px;
+    margin-top: 405px;
+}
+
+#spacetext {
+    font-family: "spacetextfont";
+    font-size: 12.2em;
+    color: white;
+    margin-top: 30px;
+}
+
+#initialtext, #letsfaceittext {
+    font-family: "initialtextfont";
+}
+
+p {
+    width: 574.1px;
+}
+
+#letsfaceittext {
+    font-size: 1em;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    color: hsl(231,24%,84%);
+    font-weight: 200;
+    line-height: 2;
+    text-align: justify;
+}
+
+#initialtext {
+    font-size: 2em;
+    word-spacing: 6.5px;
+    letter-spacing: 6.5px;
+    color: hsl(236,30%,83%);
+}
+
+.circle {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    left: 1300px;
+    bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textinsidecircle {
+    font-family: "spacetextfont";
+    font-size: 2.5em;
+}

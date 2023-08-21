@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "menufont";
+    src: url(./RoladeFree/Rolade\ Free.ttf);
+}
+
+@font-face {
+    font-family: "initialtextfont";
+    src: url(./Barlow-Condensed-Regular/barlowcondensed/BarlowCondensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: "spacetextfont";
+    src: url(./Bellefair-Regular/bellefair/Bellefair-Regular.ttf);
+}
+
+header {
+    margin-top: 50px;
+    display: flex;
+    height: 100px;
+    width: 60%;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(50px);
+    position: absolute;
+    top: 1px;
+    right: 0px;
+}
+
+#logo {
+    margin-top: 50px;
+    top: 25px;
+    position: absolute;
+    left: 100px;
+}
+
+ol li {
+    list-style-type: decimal-leading-zero;
+    color: rgb(255, 255, 255);
+    display: inline;
+    margin-right: 40px;
+}
+
+ol li {
+    position: relative;
+    font-family: "menufont";
+    letter-spacing: 2px;
+    font-size: 1.1em;
+}
+
+ol li::after {
+    content: "";
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    left: 0px;
+    bottom: -42px;
+    transition: 0.3s;
+}
+
+ol li:hover::after {
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none ;
+}
+
+ol li:hover {
+    cursor: pointer;
+}
+
+
+ol {
+    margin-right: 150px;
+}
+

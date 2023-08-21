@@ -1,0 +1,154 @@
+body {
+    background-image: url(./assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    margin: 0px;
+    background-repeat: no-repeat;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+* {
+    color: white;
+}
+
+#colorgray {
+    color: gray;
+    font-weight: 900;
+}
+
+.maincontentcontainer {
+    display: grid;
+    grid-template-rows: repeat(5,auto);
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    margin-top: 200px;
+    height: 735px;
+}
+
+#pickdestinationtext, #planetdescription, #planetnavmenu, .extradescriptiontext {
+    font-family: "menufont";
+}
+
+.units, #currentplanetname {
+    font-family: "spacetextfont";
+}
+
+#pickdestinationtext {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 1;
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    font-size: 2em;
+    font-family: "menufont";
+}
+
+#planetimage {
+    grid-row: 2 / span 4;
+    grid-column: 1 / span 1;
+    margin: auto;
+    margin-left: 40%;
+}
+
+#planetnavmenu {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+}
+
+#currentplanetname {
+    grid-row: 3 / span 1;
+    grid-column: 2 / span 1;
+    font-size: 7em;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+#planetdescription {
+    grid-row: 4 / span 1;
+    grid-column: 2 / span 1;
+    line-height: 2;
+    margin-left: 20px;
+    font-size: 1.4em;
+    font-weight: 100;
+    max-width: 600px;
+    color: hsl(231,24%,84%);
+    margin-bottom: 50px;
+    margin-top: -5px;
+    text-align: start;
+}
+
+#planetextrainformation {
+    grid-row: 5 / span 1;
+    grid-column: 2 / span 1;
+    margin-top: -40px;
+}
+
+#planetextrainformation {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 20px;
+    border-top: 1px solid hsl(231,24%,84%);
+    width: 600px;
+}
+
+.extradescriptiontext {
+    font-weight: 100;
+    color: hsl(231,24%,84%);
+    margin-top: 30px;
+}
+
+.units {
+    font-size: 2em;
+    margin-top: 2px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 70px;
+}
+
+ul li {
+    font-size: 1.3em;
+    margin: 20px;
+    text-align: start;
+    font-weight: 0;
+    position: relative;
+    height: 40px;
+}
+
+.bottomborder {
+    border-bottom: 3px solid white;
+}
+
+ul li::after {
+    content: "";
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    position: absolute;
+    bottom: -3px;
+    left: 0px;
+    width: 0%;
+    transition: 0.3s;
+}
+
+ul li:hover::after {
+    width: 100%;
+}
+
+a.destinationmenu {
+    height: 100px;
+}
+

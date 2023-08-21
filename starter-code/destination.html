@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+  <link rel="stylesheet" href="./common.css">
+  <link rel="stylesheet" href="./destination.css">
+</head>
+<body>
+  <img src="./assets/shared/logo.svg" alt="" id="logo">
+  <header>
+    <ol class="menulist">
+      <li><a href="./index.html"><span class="bold">01</span> Home</a></li>
+      <li><a href="./destination.html"><span class="bold">02</span> Destination</a></li>
+      <li><a href="./crew.html"><span class="bold">03</span> Crew</a></li>
+      <li><a href="./technology.html"><span class="bold">04</span> Technology</a></li>
+    </ol>
+  </header>
+  <div class="maincontentcontainer">
+    <h2 id="pickdestinationtext"><span id="colorgray">01</span> PICK YOUR DESTINATION</h2>
+    <img src="./assets/destination/image-moon.png" alt="" id="planetimage">
+    <ul id="planetnavmenu">
+      <li class="bottomborder"><a href="#" class="destinationmenu">MOON</a></li>
+      <li><a href="#" class="destinationmenu">MARS</a></li>
+      <li><a href="#" class="destinationmenu">EUROPA</a></li>
+      <li><a href="#" class="destinationmenu">TITAN</a></li>
+    </ul>
+    <h1 id="currentplanetname">MOON</h1>
+    <p id="planetdescription">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+    <div id="planetextrainformation">
+      <span>
+        <p class="extradescriptiontext">AVG. DISTANCE</p>
+        <p id="avgdistance" class="units">384,400 KM</p>
+      </span>
+      <span>
+        <p class="extradescriptiontext">EST. TRAVEL TIME</p>
+        <p id="traveltime" class="units">3 DAYS</p>
+      </span>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
